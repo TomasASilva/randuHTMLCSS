@@ -1,0 +1,276 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+h1 {
+    width: 300px;
+    font-size: medium;
+}
+
+nav {
+    margin-left: auto;
+    padding-right: 20px;
+    text-align: right;
+    width: 95%;
+    display: inline-block;
+    align-content: space-evenly;
+
+}
+.navHdr{
+    display: flex;
+    
+}
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(88, 21, 21);
+}
+
+nav,
+li {
+    display: inline-block;
+}
+
+ul {
+    display: inline-flex;
+    width: 300px;
+}
+
+ul.lsit {
+    list-style: none;
+}
+
+.imgCndl {
+    width: 50%;
+}
+
+.h2Info {
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.fInfoDiv {
+    display: block;
+    text-align: center;
+    align-content: center;
+    width: 50%;
+}
+
+.firstInfo {
+    display: inline-flex;
+    background-color: rgb(88, 21, 21);
+    width: 100%;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: start;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.allLtlInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.ltlInfo {
+    display: block;
+    text-align: -webkit-center;
+    align-content: center;
+    width: 180px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(88, 21, 21);
+}
+
+.imgInfo {
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+    margin-bottom: 10px;
+    
+}
+
+.thrdInfo{
+    background-color: rgb(56, 129, 56);
+    color: white;
+    font-weight: 100;
+    height: 80px;
+    align-content: center;
+    margin-top: 20px;
+    
+}
+
+.thrdInfoH2{
+    margin: 0%;
+}
+  
+.cardProd{
+    width: 258px;
+    border-top: 15px;
+    height: auto;
+    aspect-ratio: auto;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-top: 20px;
+}
+
+.lastProd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.imgProd{
+    width: 100%;
+    border-radius: 5%;
+    margin-bottom: 10px;
+   
+}
+
+.nomProd{
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(88, 21, 21);
+    margin-bottom: 10px;
+}
+
+.price{
+    color: rgb(56, 129, 56);
+    margin-bottom: 10px;
+    
+}
+
+.pProd{
+    text-align: start;
+    margin: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btnProd{
+    color: white;
+    background-color: rgb(56, 129, 56);
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    font-size: smaller;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.contactSec{
+    place-items: center
+}
+
+.formContact{
+    width: 50%;
+    border-top: 15px;
+    height: auto;
+    aspect-ratio: auto;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.infoContDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contH3{
+    text-align: start;
+}
+
+.input{
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.inputMsg{
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+}
+
+.btnSub{
+    color: white;
+    background-color: rgb(56, 129, 56);
+    height: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    font-size: smaller;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.inputMail{
+    margin-right: 100px;
+}
+
+footer{
+    background-color: rgb(88, 21, 21);
+    text-align: center;
+    color: white;
+    align-content: center;
+    
+}
+
+.footerP{
+    text-align: center;
+    margin-bottom: 20px;
+}
